@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Firefly Jar – a tiny 2D game</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Firefly Jar</h1>
+  <p class="sub">Catch fireflies with your jar. Dodge the bats.</p>
+  <div class="hud">
+    <span>Score <b id="score">0</b></span>
+    <span>Lives <b id="lives">3</b></span>
+    <span>Best <b id="best">0</b></span>
+  </div>
+  <canvas id="game" width="640" height="400" aria-label="Firefly Jar game"></canvas>
+  <p class="help">Move: arrow keys / WASD, or drag on the screen. Start: Space or tap.</p>
+</main>
+<script src="game.js"></script>
+</body>
+</html>

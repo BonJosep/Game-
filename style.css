@@ -1,0 +1,12 @@
+:root{--night:#0b2227;--pond:#12383b;--moss:#2f5d50;--glow:#ffd45c;--mist:#d9efe6}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:radial-gradient(ellipse at 50% 100%,var(--pond),var(--night) 70%);color:var(--mist);
+  font-family:"Bricolage Grotesque",system-ui,sans-serif;display:grid;place-items:center;padding:12px}
+main{width:100%;max-width:680px;text-align:center}
+h1{font-size:clamp(2rem,6vw,3rem);font-weight:800;margin:0;color:var(--glow);letter-spacing:-.02em}
+.sub{margin:.25rem 0 1rem;opacity:.8}
+.hud{display:flex;justify-content:center;gap:1.5rem;margin-bottom:.6rem}
+.hud b{color:var(--glow);font-weight:800}
+canvas{width:100%;height:auto;border:2px solid var(--moss);border-radius:14px;background:var(--night);touch-action:none;display:block}
+.help{font-size:.85rem;opacity:.65}
